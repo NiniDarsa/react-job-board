@@ -16,7 +16,7 @@ const StyleHeader = styled.div`
   flex: 2;
   display: flex;
   flex-direction: column;
-  background-image: url("/backgroundImage.jpg");
+  background-image: url("/backgroundImage.webp");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
