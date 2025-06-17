@@ -79,7 +79,7 @@ const Information = () => {
             <div className="reviews">
               <div>
                 <h2>Company Reviews</h2>
-                <p>Resent things people are saying</p>
+                <p>Recent things people are saying</p>
               </div>
 
               <ul>

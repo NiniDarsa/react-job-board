@@ -4,9 +4,12 @@ import useJobsListContext from "../hooks/useJobsListContext";
 
 const Search = () => {
   const { searchText, handleChange } = useJobsListContext();
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+  };
   return (
     <StyleHead>
-      <form>
+      <form onSubmit={(e) => handleSubmit(e)}>
         <p>
           <FaSearch />
         </p>
